@@ -1,0 +1,43 @@
+.machine{
+    &__wrapper{
+        padding: 72px 80px 84px 170px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #1C1814;
+        
+    }   
+    &__right{
+        width: 60%;
+        h2{
+            font-size: 48px;
+            font-weight: 700;
+            line-height: 62px;
+            margin-bottom: 36px;
+        }
+        p{
+            font-size: 16px;
+            font-family: 500;
+            color: #FFFFFFCC;
+            line-height: 28px;
+            margin-bottom: 36px;
+            text-transform: capitalize;
+        }
+        .machine-btn{
+            padding: 20px 36px;
+            color: white;
+            font-size: 18px;
+            font-weight: 700;
+            border: none;
+            background: $primary-color;
+            height: 64px;
+            transition: 0.3s ease-in-out;
+            text-transform: uppercase;
+            &:hover{
+                background-color: #1c181404;
+                border: 1px solid $primary-color;
+                color: $primary-color;
+            }
+        }
+    }
+}

@@ -1,0 +1,37 @@
+.hero{
+    background-image: url(/assents/images/hero-bc.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 147px 0 166px 0;
+    h1{
+        font-size: 72px;
+        font-weight: 600;
+        line-height: 94px;
+        margin-bottom: 32px;
+    }
+    p{
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 36px;
+        color: #FFFFFFCC;
+        margin-bottom: 64px;
+        text-transform: capitalize;
+    }
+    &__btn{
+        padding: 12px 40px;
+        background-color: $primary-color;
+        color: white;
+        font-size: 18px;
+        font-weight: 700;
+        border: none;
+        height: 62px;
+        transition: 0.3s ease-in-out;
+        text-transform: uppercase;
+        &:hover{
+            background-color: #1c181400;
+            border: 1px solid $primary-color;
+            color: $primary-color;
+
+        }
+    }
+}

@@ -1,0 +1,27 @@
+.proper{
+    padding:140px 0;
+    &__wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        h3{
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 24px;
+            span{
+                color: $primary-color;
+                font-weight: 750;
+            }
+        }
+        .proper__img{
+            overflow: hidden;
+            height: 420px;
+            img{
+                transition: 0.3s ease-in-out;
+                &:hover{
+                    transform: scale(1.1);
+                }
+            }
+        }
+    }
+}

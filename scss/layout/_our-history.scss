@@ -1,0 +1,58 @@
+.history__wrapper {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    gap: 32px;
+    .history__card1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 28px;
+        .card-img1,
+        .card-img2 {
+            width: 298px;
+            height: 305px;
+            overflow: hidden;
+            transition: 0.3s ease-in-out;
+            &:hover img {
+                transform: scale(1.1);
+            }
+        }
+    }
+    .history__card2 {
+        height: 638px;
+        overflow: hidden;
+        transition: 0.3s ease-in-out;
+        &:hover img {
+            transform: scale(1.1);
+        }
+    }
+
+    .history__card3 {
+        width: 510px;
+        background-color: #1C1814;
+        height: 100%;
+        padding: 120px 56px 160px 56px;
+        transition: 0.3s ease-in-out;
+        &:hover{
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(229, 208, 208, 0.23) 0px 3px 6px;        }
+        h6 {
+            font-size: 18px;
+            font-weight: 500;
+            color: $primary-color;
+        }
+        h3 {
+            font-size: 47px;
+            font-weight: 700;
+            line-height: 62px;
+            margin-bottom: 36px;
+        }
+        p {
+            color: #FFFFFFCC;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 29px;
+            text-transform: capitalize;
+        }
+    }
+}
